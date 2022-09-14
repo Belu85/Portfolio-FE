@@ -1,0 +1,39 @@
+.row {
+    padding: 20px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+h3, h4{
+    display: inline;
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        position: absolute;
+        left: 5%;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        padding-top:30px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 576px) {
+    .educacion {
+        padding-top: 80px;
+        margin-left: 350px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .educacion {
+        padding-top: 50px;
+    }
+}
