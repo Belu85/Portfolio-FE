@@ -1,3 +1,10 @@
+
 img{
     width: 100%;
+    padding-right: 0px;
+}
+@media (max-width:576px ){
+    .img{
+        max-width: 100%;
+    }
 }

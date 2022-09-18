@@ -4,10 +4,32 @@ div{
 #logo-ap{
     width: 150px;
 }
-#social{
+img{
     width: 30px;
-    float: right;
-    margin-top: 30px;
-    margin-left: 5px;
-    padding-right: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    border-width: medium;
+}
+
+/* para vista de celular*/
+
+@media (max-width:576px ){
+.container{
+    flex-direction: column;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social img{
+    margin: 0.2em;
+}
 }

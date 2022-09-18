@@ -1,0 +1,60 @@
+.row{
+    padding: 20px;
+    font-family:'Hachi Maru Pop', cursive;
+}
+.contenedor{
+    width: auto;
+}
+.parte1,.parte2{
+    display: inline-block;
+    text-align: justify;
+}
+.img-proyecto{
+    box-shadow: 10px 10px 30px orange;
+    box-shadow: ejeX ejeY difumacion orange;
+}
+@media (min-width: 576px) {
+    h2 {
+        left: 5%;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        padding-top: 10px;
+        font-size: 26px;
+        text-align: center;
+        
+    }
+}
+@media (min-width: 576px) {
+    h3 {
+        left: 5%;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    h3 {
+        padding-top: 40px;
+        font-size: 20px;
+        
+    }
+}
+@media (min-width: 576px) {
+    p {
+        left: 5%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    p {
+        padding-top: 20px;
+        margin-bottom: 30px;
+        
+    }
+}

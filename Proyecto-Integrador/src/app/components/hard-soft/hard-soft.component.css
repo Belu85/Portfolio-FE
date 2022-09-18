@@ -1,0 +1,20 @@
+.row {
+    padding: 20px;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+@media (min-width: 576px) {
+    h2 {
+        left: 5%;
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    h2 {
+        padding-top: 10px;
+        font-size: 26px;
+        text-align: center;
+        
+    }
+}
