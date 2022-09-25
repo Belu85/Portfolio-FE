@@ -1,6 +1,7 @@
 .row {
     padding: 20px;
     font-family: 'Hachi Maru Pop', cursive;
+    background-color: #e5e0d7;
 }
 @media (min-width: 576px) {
     h2 {

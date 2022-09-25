@@ -1,5 +1,6 @@
+
 div{
-    background-color: aqua;
+    background-color: #ab987a;
 }
 #logo-ap{
     width: 150px;
@@ -18,18 +19,35 @@ img{
     border-width: medium;
 }
 
+@media (min-width: 576px){
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+}
+
 /* para vista de celular*/
 
-@media (max-width:576px ){
-.container{
-    flex-direction: column;
+@media(max-width: 576px){
+    .container{
+        flex-direction: row;
+    }
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 3px solid #ff533d;
+    border-radius: 0.35rem;
+    transition: box-shadow .15s ease-in-out;
 }
-.social{
+.navbar-nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-.social img{
-    margin: 0.2em;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 }

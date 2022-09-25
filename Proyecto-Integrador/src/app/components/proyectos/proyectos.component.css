@@ -1,6 +1,7 @@
 .row{
     padding: 20px;
     font-family:'Hachi Maru Pop', cursive;
+    background-color: #e5e0d7;
 }
 .contenedor{
     width: auto;
@@ -10,8 +11,8 @@
     text-align: justify;
 }
 .img-proyecto{
-    box-shadow: 10px 10px 30px orange;
-    box-shadow: ejeX ejeY difumacion orange;
+    box-shadow: 10px 10px 30px #ff533d;
+    box-shadow: ejeX ejeY difumacion #ff533d;
 }
 @media (min-width: 576px) {
     h2 {

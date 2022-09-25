@@ -1,9 +1,16 @@
 .row{
-    background-color: blueviolet;
+    background-color: #ff533d;
 }
 footer{
     color: #fefefe;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 10px;
+    text-align: right;
 
+}
+@media(max-width:576px){
+    p{
+        font-size: 10px;
+        text-align: center;
+    }
 }
